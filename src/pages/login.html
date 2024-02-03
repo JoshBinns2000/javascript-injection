@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Javascript injection playground</title>
+</head>
+<body>
+  <h1>Login</h1>
+
+  <form class="login" action="/login" method="post">
+    <label for="username">Username:</label>
+    <input id="username" name="username" type="text"/>
+    
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password"/>
+
+
+    <label for="maths-question">What is 3 + 3?</label>
+    <input id="maths-question" name="maths-question" type="text">
+
+    <input class="submit-button" type="submit"/>
+  </form>
+</body>
+</html>

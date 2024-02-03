@@ -1,3 +1,17 @@
 body {
   background-color: lightgrey;
+  padding: 2em 0 2em 2em;
+}
+
+form.login {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5%;
+  width: 30%;
+  text-align: right;
+
+  .submit-button {
+    grid-row-end: auto;
+  }
 }
